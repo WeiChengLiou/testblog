@@ -18,13 +18,13 @@ TIMEZONE = 'Asia/Taipei'
 DEFAULT_LANG = u'en'
 
 # Set the article URL.
-ARTICLE_URL = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
-ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
+ARTICLE_URL = 'testblog/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
+ARTICLE_SAVE_AS = 'testblog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
 # Title menu options.
 uri = 'http://WeiChengLiou.github.io'
 # uri = 'http://localhost:8081'
-MENUITEMS = [('Blog', '%s/blog' % uri),
+MENUITEMS = [('Blog', '%s/testblog' % uri),
              ('Archives', '%s/blog/archives.html' % uri),
              # ('About', '%s/about' % uri),
              ]
